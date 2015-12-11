@@ -1,3 +1,42 @@
 p {
 	color: red;
 }
+
+#maincontent{
+	margin-left: 150px;
+	margin-right: 75px;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	width: 130px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 8PX;
+	border-width: 1px;
+	border-style: solid;
+	
+}
+
+nav ul li a:hover {
+	background-color: #555;
+	color: #fff
+}
+
+.im-here{
+	background-color: #4CAF50;
+	color: #fff
+}
