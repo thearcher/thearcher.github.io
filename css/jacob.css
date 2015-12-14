@@ -4,6 +4,7 @@ p {
 
 #maincontent{
 	margin-left: 150px;
+	padding-left: 25px;
 	margin-right: 75px;
 
 }
@@ -39,4 +40,18 @@ nav ul li a:hover {
 .im-here{
 	background-color:#4d2500;
 	color: #fff
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: inline;
+	}	
+	
+	#maincontent{
+	margin-left: 2%%;
+	padding-left: 0;
+	margin-right: 2%;
+
+}
+
 }
