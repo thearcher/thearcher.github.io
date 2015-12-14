@@ -24,6 +24,7 @@ nav ul li a {
 	border-width: 1px;
 	border-style: solid;
 	
+	
 }
 
 nav ul li a:hover {
@@ -36,9 +37,17 @@ nav ul li a:hover {
 	color: #fff
 }
 
+#maincontent{
+		margin-left: 150px;
+		padding-left: 0;
+		margin-right: 75px;
+
+	}
+
 @media screen and (max-width: 400px) {
 	nav ul li {
 		float: left;
+		border-right: 1px solid black;
 	}
 	
 		nav ul {
@@ -61,12 +70,14 @@ nav ul li a:hover {
 		padding-bottom: 8PX;
 		border-width: 1px;
 		border-style: solid;
+		font-size: 0.75em;
 	}
-		#maincontent{
+	
+	#maincontent{
 		margin-left: 2%;
 		padding-left: 0;
 		margin-right: 2%;
 
-}
+	}
 
 }
