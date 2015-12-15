@@ -66,8 +66,9 @@ nav ul li a:hover {
 		text-decoration: none;
 		color: #000;
 		padding-left: 15px;
+		padding-right: 15px;
 		padding-top: 8px;
-		padding-bottom: 8PX;
+		padding-bottom: 8px;
 		border-width: 1px;
 		border-style: solid;
 		font-size: 0.75em;
