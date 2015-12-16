@@ -1,10 +1,16 @@
 p {
-	color: DC1A1A;
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+	color: #DC1A1A;
+	
 }
 
-title {
-	text-color: #004400;
+h1 {
+	color: #004400;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	pading-bottom: 50px;
 }
 
 nav ul {
@@ -27,14 +33,10 @@ nav ul li a {
 	padding-bottom: 8PX;
 	border-width: 1px;
 	border-style: solid;
-	
+	transition: color 0.5s;
 	
 }
-img{
-	max-width: 100%;
-	height: auto;
-	pading-bottom: 50px;
-}
+
 nav ul li a:hover {
 	background-color: #ac7339;
 	color: #fff
